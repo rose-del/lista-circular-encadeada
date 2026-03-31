@@ -24,7 +24,7 @@ Exemplo visual:
 
 É composto por três classes principais:
 
-### Nodo.java
+### - Nodo.java
 
 Representa cada elemento da lista.
 
@@ -33,7 +33,7 @@ Responsabilidades:
 * Armazenar o valor do nodo
 * Manter referência para o próximo nodo
 
-### ListaCircularEncadeada.java
+### - ListaCircularEncadeada.java
 
 Classe responsável por toda a lógica da lista circular.
 
@@ -48,9 +48,8 @@ Funcionalidades implementadas:
 | `remove(int index)`            | Remove elemento de uma posição            |
 | `exibir()`                     | Mostra todos os elementos da lista        |
 
----
 
-### Main.java
+### - Main.java
 
 Classe responsável por executar testes e demonstrar o funcionamento da lista.
 
@@ -82,11 +81,7 @@ javac Main.java
 java Main
 ```
 
----
-
 ## Exemplo de Saída
-
-Ao executar o programa, você verá algo semelhante a:
 
 ```
 === Inserindo no final ===
@@ -106,8 +101,6 @@ Tamanho após adds: 5
 
 Tamanho após removes: 4
 ```
-
----
 
 ## Detalhes Importantes
 
