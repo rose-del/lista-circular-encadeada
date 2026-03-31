@@ -80,4 +80,19 @@ public class ListaCircularEncadeada {
         }
         tamanho--;
     }
+
+    public void exibir() {
+        if (primeiro == null) {
+            System.out.println("Lista vazia");
+            return;
+        }
+        Nodo atual = primeiro;
+        do {
+            System.out.print(atual.valor);
+            if (atual.proximo != primeiro) System.out.print(" -> ");
+            atual = atual.proximo;
+        } while (atual != primeiro);
+        // Prova visual de que é circular:
+        System.out.println(" -> (volta para " + primeiro.valor + ")");
+    }
 }
